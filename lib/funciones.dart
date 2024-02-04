@@ -2,7 +2,7 @@
 
   class colorIndicadorClase {
   Color colorIndicador(double valor, double valor1,double valor2,double valor3,double valor4) {
-    // Define your color logic based on the value
+    // Funcion de cambio de color para la temperatura
     if (valor1<valor && valor<valor2) {
       return Colors.blue;
     } else if (valor2<=valor && valor<valor3) {
@@ -14,7 +14,7 @@
   }
     class colorIndicadorClaseDos {
   Color colorIndicadorDos(double valor, double valor1,double valor2) {
-    // Define your color logic based on the value
+    // Funcion de cambio de color para pH y ORP
     if (valor>=valor1 && valor<=valor2) {
       return Colors.green;
     } else {
@@ -24,7 +24,7 @@
   }
       class colorIndicadorClaseTres {
   Color colorIndicadorTres(bool valor) {
-    // Define your color logic based on the value
+    // Funcion de cambio de color para el nivel de agua
     if (valor) {
       return Colors.green;
     } else {
@@ -34,7 +34,7 @@
   }
         class colorIndicadorClaseCuatro {
   Color colorIndicadorCuatro(double valor) {
-    // Define your color logic based on the value
+    // Funcion de cambio de color para datos TDS
     if (valor<=1000) {
       return Colors.green;
     } else {
@@ -43,7 +43,7 @@
   }
   }
     String textoNivelAgua(String nivel) {
-    // Your logic to determine the text based on the input parameter
+    // Cambio de texto en la pantalla de nivel de agua
     if (nivel=="true") {
      
       return 'Normal';
