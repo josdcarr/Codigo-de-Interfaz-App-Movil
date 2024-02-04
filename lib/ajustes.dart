@@ -10,7 +10,6 @@ class OpcionAjustes extends StatefulWidget {
   OpcionAjustesState createState() => OpcionAjustesState();
 }
 
-
 class OpcionAjustesState extends State<OpcionAjustes> {
   
   final DatabaseReference databaseReference =
