@@ -26,7 +26,7 @@ void main() async {
   runApp(MyApp());
 }
 class SliderModel extends ChangeNotifier {
-  
+  //Memoria interna para guardar valores de los sliders
   double _sliderValue1 =35.0;
   double _sliderValue2 = 700.0;
   double _sliderValue3 = 7.0;
