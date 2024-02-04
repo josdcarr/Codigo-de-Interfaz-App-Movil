@@ -22,7 +22,6 @@ class OpcionAjustesState extends State<OpcionAjustes> {
   void initState() {
     super.initState();
 
-    // Attach a real-time listener to fetch and update user1's data
     referencia.onValue.listen((event) {
       if (event.snapshot.value != null) {
         setState(() {
