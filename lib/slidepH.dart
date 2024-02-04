@@ -35,7 +35,7 @@ class _SliderVerticalWidgetState extends State<SliderPHWidget> {
 
         trackShape: RectangularSliderTrackShape(),
 
-        /// ticks in between
+        
         activeTickMarkColor: Colors.transparent,
         inactiveTickMarkColor: Colors.transparent,
       ),
