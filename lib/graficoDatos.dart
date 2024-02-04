@@ -35,11 +35,11 @@ class _FirebaseLineChartState extends State<FirebaseLineChart> {
   @override
   void initState() {
     super.initState();
-    // Initialize Firebase connection and set up listeners
+    // Inicion de conexion con Firebase
     DatabaseReference reference = FirebaseDatabase.instance.reference().child('Valores medidos');
 
     reference.onChildAdded.listen(( event) {
-      // Update the X and Y values when new data is added to Firebase
+      // Actualizacion de datos en grafica con cada rama que se suma
       setState(() {
         if(id.length>9){
           id.removeAt(0);
