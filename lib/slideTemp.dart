@@ -35,7 +35,7 @@ class _SliderVerticalWidgetState extends State<SliderTemperaturaWidget> {
 
         trackShape: RectangularSliderTrackShape(),
 
-        /// ticks in between
+        
         activeTickMarkColor: Colors.transparent,
         inactiveTickMarkColor: Colors.transparent,
       ),
